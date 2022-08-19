@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContentBlock.css';
 const ContentBlock = ({ content, idx }) => {
-  const { text } = content;
+  const { body, id } = content;
 
   const isLeft = idx % 2 === 0;
 
@@ -13,7 +13,10 @@ const ContentBlock = ({ content, idx }) => {
           : 'content-block content-block-right'
       }
     >
-      <div className='content-text'>{text}</div>
+      <div className='content-text'>
+        <h3>{id}</h3>
+        <p>{body}</p>
+      </div>
       <span
         className={isLeft ? 'arrow arrow-left' : 'arrow arrow-right'}
       ></span>
