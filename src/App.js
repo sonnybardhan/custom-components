@@ -1,9 +1,10 @@
 import './App.css';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Custom Components Demo</h1>
+      <Timeline />
     </div>
   );
 }
