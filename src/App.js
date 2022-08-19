@@ -1,10 +1,10 @@
 import './App.css';
-import Timeline from './components/timeline/Timeline';
+import AudioTimeline from './components/audio-timeline/AudioTimeline';
 
 function App() {
   return (
     <div className='App'>
-      <Timeline />
+      <AudioTimeline />
     </div>
   );
 }
