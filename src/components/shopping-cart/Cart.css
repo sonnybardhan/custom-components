@@ -1,0 +1,15 @@
+.cart-container {
+	width: 30%;
+	/* background-color: aquamarine; */
+}
+
+.cart-item{
+	display: flex;
+	/* flex-direction: column; */
+align-items: center;
+
+}
+.cart-item img{
+	background-size: contain;
+	max-width: 75px;
+}

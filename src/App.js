@@ -1,10 +1,10 @@
 import './App.css';
-import AudioTimeline from './components/audio-timeline/AudioTimeline';
+import MyShop from './components/shopping-cart/MyShop';
 
 function App() {
   return (
     <div className='App'>
-      <AudioTimeline />
+      <MyShop />
     </div>
   );
 }

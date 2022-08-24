@@ -1,0 +1,32 @@
+
+.main-container{
+	width: 1200px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.products-container{
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-height: 100%;
+	overflow-y: scroll;
+}
+
+.product-container{
+	padding: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.164);
+	margin: 2px;
+	border-radius: 3px;
+}
+
+.product-container img{
+	max-width: 100%;
+	height: 250px;
+	background-position: center;
+	background-size: contain;
+}
+
+.product-container button{
+	padding: 5px;
+}
