@@ -1,7 +1,11 @@
 .App{
 	width: 100vw;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .App h1{

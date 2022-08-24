@@ -1,0 +1,15 @@
+.tool-tip-container {
+	position: relative;
+	background-color: teal;
+}
+
+/* .tool-tip-message {
+	padding: 1em;
+	background-color: lightpink;
+	position: absolute;
+	z-index: 10;
+}
+
+.hide {
+	display: none;
+} */
