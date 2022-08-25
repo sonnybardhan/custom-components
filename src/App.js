@@ -1,20 +1,21 @@
 import './App.css';
-import ToolTip from './components/tool-tip/ToolTip';
+import React, { useState, createContext } from 'react';
+import DummyComponent from './components/ctx-component/DummyComponent';
+import DummyComponent2 from './components/ctx-component/DummyComponent2';
+
+export const ThemeContext = createContext();
 
 function App() {
+  const [dark, setDark] = useState(true);
+
   return (
-    <div className='App'>
-      <ToolTip element={<Box />} message='Hi my name is so and so' />
-    </div>
+    <ThemeContext.Provider value={{ dark, setDark }}>
+      <div className=''>
+        <DummyComponent />
+        <DummyComponent2 />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
 export default App;
-
-function Box() {
-  return (
-    <div
-      style={{ width: '500px', height: '400px', backgroundColor: 'lightblue' }}
-    ></div>
-  );
-}
