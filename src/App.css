@@ -2,12 +2,17 @@
 	width: 100vw;
 	min-height: 100vh;
 	background-color: #eee;
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 }
 
 .App h1{
 	margin: 0;
-	text-align: center;
+	/* text-align: center; */
+}
+
+a {
+	color: inherit !important;
+	text-decoration: none !important;
 }
