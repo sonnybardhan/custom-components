@@ -8,7 +8,7 @@ const Rating = ({ rating, onClick, style }) => {
         return (
           <span
             key={Math.random()}
-            onClick={() => onClick(idx + 1)}
+            onClick={() => onClick({ type: 'BY_RATING', payload: idx + 1 })}
             style={style}
           >
             {idx < rating ? <AiFillStar /> : <AiOutlineStar />}
