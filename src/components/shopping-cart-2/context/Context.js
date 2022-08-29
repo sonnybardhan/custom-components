@@ -39,9 +39,9 @@ const CartContextProvider = ({ children }) => {
     });
   }, []);
 
-  useEffect(() => {
-    console.log('filters modified: ', filters);
-  }, [filters]);
+  // useEffect(() => {
+  //   console.log('filters modified: ', filters);
+  // }, [filters]);
 
   return (
     <CartContext.Provider value={{ state, dispatch, filters, filtersDispatch }}>

@@ -16,3 +16,20 @@
 .title{
 	font-size: 1.5em;
 }
+
+@media screen and (max-width: 771px) {
+	.filter-container {
+		width: 40%;
+		padding: 10px;
+		margin: 5px;
+		height: 100%;
+	}
+
+.filter-container > span{
+		font-style: 10px;	
+	}
+
+	.title {
+		font-size: 10px !important;
+	}
+}

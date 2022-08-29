@@ -47,3 +47,19 @@
 .summary{
 	width: 30%;	
 }
+
+
+@media screen and (max-width: 771px) {
+	.product-container {
+		width: 58%;
+		padding: 0;
+	}
+
+	.search{
+		display: none !important;
+	}
+
+	.product {
+		width: 100%;
+	}
+}
